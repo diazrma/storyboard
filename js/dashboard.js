@@ -5,7 +5,7 @@ var menu = new Vue({
     data: {
         items: [
             { message: 'Página Inicial', url: 'index.html' },
-            { message: 'Novo', url: 'novo.html' },
+            { message: 'Novo', url: 'template.html' },
             { message: 'Histórias', url: 'historias.html' },
             { message: 'Tarefas', url: 'tarefas.html' },
 

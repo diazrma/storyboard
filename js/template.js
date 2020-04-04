@@ -1,6 +1,15 @@
 var app = new Vue({
-    el: '#app',
+    el: '#template',
     data: {
-        title: 'Storyboard'
-    }
+        titulo: 'Nome do Projeto',
+        totalQuadros: 0,
+        tituloQuadro:'Nome do Quadro'
+    },  methods: {
+        novoQuadro: function() {
+          
+          this.totalQuadros++
+        }
+      }
 })
+
+
